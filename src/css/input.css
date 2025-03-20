@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Rr";
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rm";
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Rb";
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "R_bc";
+    src: url(../assets/fonts/Roboto-Black.ttf);
+}
+@import "tailwindcss";
+
+
+@theme {
+    --color-title: #0F2336;
+    --color-text: #576D81;
+    --font-Rr: "Rr", "sans-serif";
+    --font-Rm: "Rm", "sans-serif";
+    --font-Rb: "Rb", "sans-serif";
+    --font-R_bc: "R_bc", "sans-serif";
+}
+
+.container {
+    max-width: 1242px;
+    padding: 0 16px;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+

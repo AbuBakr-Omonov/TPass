@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omadshov</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background: linear-gradient(135deg, #1a1a67, #03030f);
+            text-align: center;
+        }
+        .tel {
+            font-size: 8vw;
+            font-weight: bold;
+            text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.3);
+            margin-bottom: 20px;
+            transition: color 0.5s ease-in-out;
+        }.link{
+            color: white;
+            text-decoration: none;
+        }
+       
+        button {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(135deg, #ff6600, #ff3300);
+            border: none;
+            box-shadow: 0 0 15px rgba(255, 102, 0, 0.6);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #ff3300, #ff6600);
+            box-shadow: 0 0 25px rgba(255, 102, 0, 0.9);
+            transform: scale(1.1);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1 ><a class="link" href="./index.html">TPass</a></h1>
+    <h2 class="tel">+998 00 000 00 00 </h2>
+    <button onclick = "foo()">start</button>
+    <script src="./js/script.js"></script>
+</body>
+</html>
