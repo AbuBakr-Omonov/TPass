@@ -37,3 +37,10 @@
     scroll-behavior: smooth;
 }
 
+.hero{
+    background-image: url(../assets/img/Group\ 1.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
